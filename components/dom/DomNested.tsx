@@ -1,8 +1,20 @@
 import React from "react";
-import { Text } from "react-native";
 
 const DomNested = () => {
-  return <Text>DomNested</Text>;
+  return (
+    <div
+      style={{
+        height: 300,
+        alignSelf: "center",
+        width: 300,
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <span>DomNested</span>
+    </div>
+  );
 };
 
 export default DomNested;
