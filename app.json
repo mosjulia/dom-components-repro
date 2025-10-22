@@ -2,7 +2,8 @@
   "expo": {
     "name": "dom-components-repro",
     "slug": "dom-components-repro",
-    "version": "1.0.0",
+    "version": "1.0.1",
+    "runtimeVersion": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "domcomponentsrepro",
@@ -45,9 +46,6 @@
       "eas": {
         "projectId": "e227778b-6196-4bfe-b88e-18ad3d66aa09"
       }
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
     },
     "updates": {
       "url": "https://u.expo.dev/e227778b-6196-4bfe-b88e-18ad3d66aa09"

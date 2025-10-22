@@ -1,10 +1,13 @@
 "use dom";
 
 import React from "react";
-import DomNested from "./DomNested";
 
 const DOM = () => {
-  return <DomNested />;
+  return (
+    <div>
+      <p>hello from dom</p>
+    </div>
+  );
 };
 
 export default DOM;
